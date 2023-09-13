@@ -1,0 +1,49 @@
+.sobre-principal {
+    text-align: center;
+}
+
+.titulo-sobre {
+    font-size: 2em;
+    font-weight: 700;
+    margin: 1em;
+}
+
+.paragrafo-sobre {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.subtitulo-sobre {
+    font-weight: 700;
+}
+
+.lista-sobre {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    list-style-type: circle;
+}
+
+.texto {
+    margin: 1em 0;
+}
+
+.texto .texto-marcado {
+    color: var(--red);
+}
+
+.texto-secundario {
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+
+.padarias-localização {
+    background-color: var(--red);
+    color: var(--white);
+    text-decoration: none;
+    padding: 20px;
+}

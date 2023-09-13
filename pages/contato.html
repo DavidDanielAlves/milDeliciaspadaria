@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Mil Delicias - contato</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="../imgs/foto-logo-mildelicias.jpg" alt="logo da panificadora mil delicias" class="imagem-cabecalho">
+        <h1 class="cabecalho-titulo"><strong class="destaque-titulo">Mil Delicias</strong> Panificadora</h1>
+        <nav class="navbar">
+            <ul class="navbar-lista">
+                <li class="lista-item"><a href="../index.html">Home</a></li>
+                <li class="lista-item"><a href="contato.html">Contato</a></li>
+                <li class="lista-item"><a href="sobre.html">Sobre nós</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="principal">
+        <section class="section-contatos">
+            <img src="../imgs/img-contatos.jpg" alt="imagem de pessoa ao celular sorrindo" class="imagem-contatos">
+            <div>
+                <h2 class="titulo-contatos">Procurando nossos contatos?</h2>
+                <p class="texto-contatos">Mande uma mensagem clicando nos links abaixo ou preencha o formulario para
+                    mandarmos para você mostrando
+                    os preços e novidades da padaria por email e watzapp
+                </p>
+                <ul class="lista-contatos">
+                    <li class="contatos-item"><a href="#"><i class="fa-brands fa-whatsapp" id="watzap"></i></a></li>
+                    <li class="contatos-item"><a href="#"><i class="fa-brands fa-instagram" id="instagram"></i></a></li>
+                    <li class="contatos-item"><a href="#"><i class="fa-regular fa-envelope" id="email"></i></a></li>
+                </ul>
+                <h2 class="titulo-formulario">Formulario</h2>
+                <form class="formulario" id="form">
+                    <input type="text" name="nome" id="input-nome" placeholder="Seu nome aqui:" required minlength="3">
+                    <input type="email" name="numero" id="input-numero" placeholder="Numero ou Email:" required>
+                    <div>
+                        <input type="checkbox" name="checkbox" id="input-checkbox" required>
+                        <label for="input-checkbox">Você concorda com o envios de email promocionais e informações sobre a
+                            empresa?</label>
+                    </div>
+                    <input type="submit" class="botao-enviar">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape contatos-rodape">
+        <p>copyrigth terms by mil delicias empresa</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

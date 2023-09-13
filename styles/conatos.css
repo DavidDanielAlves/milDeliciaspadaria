@@ -1,0 +1,115 @@
+.section-contatos {
+    padding: 3em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.imagem-contatos {
+    width: 50%;
+    border-radius: 5px;
+    align-self: flex-start;
+}
+
+.titulo-contatos {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.texto-contatos {
+    margin: 1.5em 3em;
+}
+
+.lista-contatos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 1em;
+}
+
+.contatos-item a #watzap {
+    border-radius: 100%;
+    padding: 20px;
+    background-color: white;
+    font-weight: 700;
+    border: 1px solid black;
+}
+
+.contatos-item a #watzap:hover {
+    background-color: greenyellow;
+    color: white;
+    border: 3px solid white;
+}
+
+.contatos-item a #instagram {
+    border-radius: 100%;
+    padding: 20px;
+    background-color: white;
+    font-weight: 700;
+    border: 1px solid black;
+}
+
+.contatos-item a #instagram:hover {
+    background: linear-gradient(to right, red, orange);
+    color: white;
+    border: 3px solid white;
+}
+
+.contatos-item a #email {
+    border-radius: 100%;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.contatos-item a #email:hover {
+    background-color: red;
+    color: white;
+    border: 3px solid white;
+}
+
+.contatos-rodape {
+    margin-top: 0;
+}
+
+.botao-enviar {
+    background-color: var(--red);
+    color: var(--white);
+    font-weight: 700;
+    border-radius: 10px;
+    width: 50%;
+    align-self: center;
+    padding: 10px;
+    border: none;
+}
+
+.botao-enviar:hover {
+    background-color: tomato;
+}
+
+@media (max-width: 800px) {
+    .section-contatos {
+        flex-direction: column;
+    }
+
+    .imagem-contatos {
+        width: 80%;
+        margin-bottom: 1em;
+        align-self: center;
+    }
+
+    .texto-contatos {
+        margin: 1em auto;
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 350px) {
+    .imagem-contatos {
+        width: 100%;
+    }
+
+    .texto-contatos {
+        font-size: 0.8em;
+    }
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Raleway:wght@300;500;700&display=swap');
+@import url(header.css);
+@import url(main.css);
+@import url(primary.css);
+@import url(variedades.css);
+@import url(localizacao.css);
+@import url(footer.css);
+@import url(conatos.css);
+@import url(formulario.css);
+@import url(sobre-principal.css);
+
+:root {
+    --red: red;
+    --black: black;
+    --white: white;
+    --shadow: rgba(245, 245, 220);
+    --bg-color-main: rgba(245, 245, 220, 0.274);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--white);
+    color: var(--black);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}

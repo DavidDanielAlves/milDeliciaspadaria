@@ -1,0 +1,27 @@
+.section-localizacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.titulo-localizacao {
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 1em;
+}
+
+.subtitulo-localizacao {
+    font-weight: 700;
+    color: var(--red);
+}
+
+.localizacao {
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .titulo-localizacao {
+        font-size: 1em;
+    }
+}
